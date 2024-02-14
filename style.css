@@ -1,0 +1,99 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    color: aliceblue;
+    background-color: black;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 60vh;
+    color: aliceblue;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    margin: 23px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?cs=srgb&dl=pexels-daniel-reche-3721941.jpg&fm=jpg);
+}
+
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    margin-top: 14px;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+#myprogersebar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songitem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestemp {
+    margin: 0 23px;
+}
